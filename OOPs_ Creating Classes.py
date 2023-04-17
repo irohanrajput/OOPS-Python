@@ -19,3 +19,5 @@ emp_1.fullname()  #we don't need to give an arguemetn, it already knows that we'
 
 employee.fullname(emp_1) #here we need to give the arguement
 
+
+
