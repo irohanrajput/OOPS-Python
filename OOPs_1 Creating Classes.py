@@ -17,7 +17,7 @@ print(emp_1.fullname()) # * no arguement is given but emp_1 itself gives one arg
 
 emp_1.fullname()  #we don't need to give an arguemetn, it already knows that we're talking about 'self'
 
-employee.fullname(emp_1) #here we need to give the arguement
-
+employee.fullname(emp_1) #here  we need to give the arguement
+  
 
 
