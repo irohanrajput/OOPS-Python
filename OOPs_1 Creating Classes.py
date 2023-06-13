@@ -1,7 +1,9 @@
 class employee:
-    def __init__(self, first, last, pay): #self is instance jo btata hai kiske baare me baat ho rhi
+    def __init__(self, first, last, pay): 
+        #self is instance jo btata hai kiske baare me baat ho rhi
          
-        self.fname = first  #we're creating a variable 'self.first' and assigning it the value of 'first'
+        self.fname = first  
+        #we're creating a variable 'self.first' and assigning it the value of 'first'
         self.lname = last
         self.salary = pay
         self.email = first + '.' + last + '@kiet.edu'
