@@ -6,7 +6,7 @@ class employee:
         #self is instance jo btata hai kiske baare me baat ho rhi
          
         self.fname = first  
-        #we're creating a variable 'self.first' and assigning it the value of 'first'
+        #we're creating a variable 'self.first' and assigning it the value of 'first'; these are attributes and not methods
         self.lname = last
         self.salary = pay
         self.email = first + '.' + last + '@kiet.edu'
@@ -14,7 +14,7 @@ class employee:
 
     def fullname(self):  # *one argurment is given 
         return '{} {}'.format(self.fname, self.lname)
-    # this is a method and it automatically takes self as arguement
+    # this is a method and not an attribute,  it automatically takes self as arguement
 
 emp_1  = employee('Rohan', 'Rajput', 120000)
 emp_2  = employee('chaaku', 'rampuriya', 125000)
