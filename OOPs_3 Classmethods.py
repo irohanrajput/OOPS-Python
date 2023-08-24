@@ -19,6 +19,7 @@ class Employee:
     @classmethod
     def set_raise_amt(cls, amount):
             cls.raise_amt = amount
+#   since 'cls' is inside the classmethod of class Employee, therefore cls will be automatically taken arguement as 'Employee"
     
     @classmethod
     def from_string(cls, emp_str):
